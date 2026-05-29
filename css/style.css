@@ -1,44 +1,76 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background: var(--ptp-background);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
-
+body {
+  background: var(--ptp-background);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
 }
-:root{
-    --ptp-background:#003049;
-    --ptp-flag-red: #d62828;
-    --ptp-vivid: #f77f00;
-    --ptp-sunflower:#fcbf49;
-    --ptp-text:#eae2b7;
-
+:root {
+  --ptp-background: #003049;
+  --ptp-shadow: #d62828;
+  --ptp-border: #f77f00;
+  --ptp-sunflower: #fcbf49;
+  --ptp-text: #eae2b7;
 }
-.word-mark h1{
-      width: 100%;
-    margin: 2rem;
-    
+.word-mark h1 {
+  width: 100%;
+  margin: 2rem;
 }
-nav{
-    display: flex;
-    height: 10vh;
-    align-items: center;
-    justify-content: space-between;
+nav {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--ptp-border);
 }
 nav ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
 nav ul li a {
-    color: var(--ptp-text);
-    text-decoration: none;
+  color: var(--ptp-text);
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+#About {
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  gap: 4rem;
+  align-items: center;
+  padding: 2rem;
+  justify-items: center;
+  align-items: center;
+}
+#About h2 {
+  font-size: 2rem;
+}
+#About img {
+  width: 400px;
+  height: auto;
+  border-radius: 150%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#AboutMe img{
+    height: 400px;
+    width: 400px;
     display: flex;
-    justify-content: space-evenly;
-    padding: 2rem;
+    border-radius: 12%;
+    margin: 5%;
+    align-content: center;
 
+}
+
+#AboutMe p{
+    font-family: "Roboto";
+    font-size: 2rem
 }
