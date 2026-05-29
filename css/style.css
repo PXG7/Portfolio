@@ -4,7 +4,41 @@
     box-sizing: border-box;
 }
 body{
-    background:black;
+    background: var(--ptp-background);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+
+}
+:root{
+    --ptp-background:#003049;
+    --ptp-flag-red: #d62828;
+    --ptp-vivid: #f77f00;
+    --ptp-sunflower:#fcbf49;
+    --ptp-text:#eae2b7;
+
+}
+.word-mark h1{
+      width: 100%;
+    margin: 2rem;
+    
+}
+nav{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul li a {
+    color: var(--ptp-text);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+
 }
