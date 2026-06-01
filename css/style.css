@@ -9,6 +9,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
 }
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --ptp-background: #003049;
   --ptp-shadow: #d62828;
@@ -32,12 +35,13 @@ nav {
   height: 10vh;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 2px solid var(--ptp-border);
+  border-bottom: 4px solid var(--ptp-border);
 }
 nav ul {
   display: flex;
   align-items: center;
   list-style: none;
+  font-size: 20px;
 }
 nav ul li a {
   color: var(--ptp-text);
@@ -77,11 +81,12 @@ nav ul li a:hover::after {
 }
 .btn {
   display: inline-block;
-  padding: 12px 22px;
+  padding: 8px 16px;
+  font-size: 14px;
   background: var(--ptp-border);
   color: white;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 6px;
   transition: 0.3s ease;
   margin-top: 10px;
 }
@@ -165,6 +170,11 @@ nav ul li a:hover::after {
   margin-bottom: 1rem;
   
 }
+#AboutMe h1:hover {
+   color: var(--ptp-border);
+  transform: scale(1.1);
+  text-shadow: 0 0 8px var(--ptp-border);
+}
 #AboutMe p {
     font-family:"Roboto";
     font-size: 1.2rem;
@@ -181,6 +191,11 @@ nav ul li a:hover::after {
     text-align: center;
     margin-bottom: 1rem;
 }
+#projects h1:hover {
+   color: var(--ptp-border);
+  transform: scale(1.1);
+  text-shadow: 0 0 8px var(--ptp-border);
+} 
 #projects .projects-text {
   text-align: center;
   max-width: 800px;
@@ -225,6 +240,11 @@ nav ul li a:hover::after {
 #contact h1 {
   font-size: 32px;
   margin-bottom: 8px;
+}
+#contact h1:hover {
+ color: var(--ptp-border);
+  transform: scale(1.1);
+  text-shadow: 0 0 8px var(--ptp-border);
 }
 #contact p {
   color: #cfcfcf;
