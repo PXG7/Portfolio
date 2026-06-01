@@ -163,6 +163,7 @@ nav ul li a:hover::after {
     align-items: center;
     gap: 4rem;
     padding: 5rem;
+    padding-bottom: 2rem;
    
 }
 #AboutMe h1 {
@@ -181,6 +182,47 @@ nav ul li a:hover::after {
     line-height: 2rem;
     max-width: 700px;
 }
+#skills {
+  padding: 2rem;
+  text-align: center;
+  background-color: #003049;
+  color: white;
+}
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+
+}
+.skill {
+  
+  background: #1a1a1a;
+  border-radius: 10px;
+  padding: 12px 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#skills h1:hover {
+
+color: var(--ptp-border);
+  transform: scale(1.1);
+  text-shadow: 0 0 8px var(--ptp-border);
+} 
+.skill i {
+font-size: 20px;
+margin-bottom: 8px;
+color: var(--ptp-border);
+}
+.skill p {
+  font-size: 14px;
+}
+.skill:hover {
+  transform: translateY(-8px);
+  background: #222;
+}
+
+
 #projects {
     padding: 5rem;
     background: #052130;
