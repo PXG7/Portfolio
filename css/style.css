@@ -19,6 +19,13 @@ body {
 .word-mark h1 {
   width: 100%;
   margin: 2rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.word-mark h1:hover {
+  color: var(--ptp-border);
+  transform: scale(1.1);
+  text-shadow: 0 0 8px var(--ptp-border);
 }
 nav {
   display: flex;
@@ -35,11 +42,30 @@ nav ul {
 nav ul li a {
   color: var(--ptp-text);
   text-decoration: none;
-  display: flex;
+  display: inline-block;
   justify-content: space-evenly;
   padding: 2rem;
+  position: relative;
+  transition: 0.3s ease;
 }
-#About {
+nav ul li a:hover {
+  color: var(--ptp-sunflower);
+  transform: translateY(-3px);
+}
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 0%;
+  height: 2px;
+  background: var(--ptp-border);
+  transition: 0.3s ease;
+}
+nav ul li a:hover::after {
+  width: 100%;
+}
+#about {
   font-size: 2rem;
   display: grid;
   grid-template-columns: 600px 1fr;
@@ -49,16 +75,72 @@ nav ul li a {
   justify-items: center;
   align-items: center;
 }
-#About h1 {
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  background: var(--ptp-border);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  margin-top: 10px;
+}
+.btn:hover {
+  background: var(--ptp-shadow);
+  transform: scale(1.05);
+}
+#about h1 {
   font-size: 2rem;
 }
-#About img {
-  width: 400px;
-  height: auto;
+#about img {
+  width: 380px;
+  height: 380px;
   border-radius: 150%;
   display: flex;
   justify-content: center;
   align-content: center;
+}
+.img-ring {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* rotating ring */
+.img-ring::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+   
+  background: conic-gradient(
+    var(--ptp-border),
+    var(--ptp-shadow),
+    var(--ptp-sunflower),
+    var(--ptp-border)
+  );
+  animation: rotateRing 3s linear infinite;
+  filter:brightness(1.4);
+}
+/* image */
+.img-ring img {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  z-index: 1;
+  border: 8px solid var(--ptp-background);
+}
+/*rotation animation */
+@keyframes rotateRing {
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 #AboutMe img{
@@ -184,16 +266,17 @@ nav ul li a {
 #cta {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 3rem;
   justify-content: space-between;
   padding: 80px 5%;
   background: linear-gradient(135deg, #003049, #001219);
   flex-wrap: wrap;
   align-items: center;
 }
+
 #cta img {
-  width: 1300px;
-  height: 500px;
+  width: 500px;
+  height: auto;
   border-radius: 16px;
   animation: shake 3s infinite;
   display: block;
@@ -213,6 +296,7 @@ nav ul li a {
   max-width: 520px;
   font-size: 16px;
   align-items: center;
+  text-align: left;
 }
 #cta input {
   padding: 12px;
