@@ -91,7 +91,7 @@ nav ul li a {
 }
 #projects {
     padding: 5rem;
-    background: #003049;
+    background: #052130;
     color: white;
 }
 #projects h1 {
@@ -111,7 +111,7 @@ nav ul li a {
 }
 .project-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 .project-card img {
@@ -133,4 +133,104 @@ nav ul li a {
 .project-card:nth-child(3) img {
   width: 50%;
   height: auto;
+}
+#contact {
+  padding: 40px 8%;
+  background: #0f0f0f;
+  color: white;
+  text-align: center;
+}
+#contact h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+#contact p {
+  color: #cfcfcf;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.contact-card {
+  background: #1a1a1a;
+  padding: 18px;
+  width: 220px;
+  border-radius: 12px;
+  transition: 0.3s;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+.contact-card i {
+  font-size: 26px;
+  color: var(--ptp-border);
+  margin-bottom: 8px;
+
+}
+.contact-card h3 {
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+.contact-card p {
+  color: #aaa;
+  font-size: 14px;
+}
+.contact-card:hover {
+  transform: translateY(-12px) scale(1.03);
+  background: #222;
+}
+#cta {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  justify-content: space-between;
+  padding: 80px 5%;
+  background: linear-gradient(135deg, #003049, #001219);
+  flex-wrap: wrap;
+  align-items: center;
+}
+#cta img {
+  width: 1300px;
+  height: 500px;
+  border-radius: 16px;
+  animation: shake 3s infinite;
+  display: block;
+}
+@keyframes shake {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(1deg);}
+  50% {transform: rotate(-1deg);}
+  75% {transform: rotate(1deg);}
+  100% {transform: rotate(0deg);}
+
+}
+#cta p {
+  font-family: "Roboto";
+  color: var(--ptp-text);
+  margin-bottom: 18px;
+  max-width: 520px;
+  font-size: 16px;
+  align-items: center;
+}
+#cta input {
+  padding: 12px;
+  width: 280px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+#cta button {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 8px;
+  background: var(--ptp-border);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#cta button:hover {
+  background: var(--ptp-shadow);
+  transform: scale(1.05);
 }
