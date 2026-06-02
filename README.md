@@ -46,22 +46,5 @@
  - Create better and cleaner UI designs
  - Explore modern web technologies
 
- # 📂Project Structure
- portfolio/
-│
-├── index.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-├── images/
-│   ├── logo2.jpeg
-│   ├── project 1.png
-│   │___ project 2.png
-│   │___ project 3.png   
-│   │___handshaking.jpg
-│
-└── README.md
+# Connect With Me
+Feel free to explore my work and provide feedback.
