@@ -33,7 +33,7 @@
 
 
  # 🌐 Live Demo
-
+   https://pxg7.github.io/Portfolio/
 
  # 📸 Website Preview 
 
@@ -47,4 +47,4 @@
  - Explore modern web technologies
 
 # Connect With Me
-Feel free to explore my work and provide feedback.
+Feel free to explore my work and provide feedback. pokhrelgokul2@gmsil.com
