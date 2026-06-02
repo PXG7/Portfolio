@@ -39,7 +39,7 @@
 
  ![alt text](<My website src.png>)
 
- # 🎯My current Goals
+ # 🎯My Current Goals
  - Improve frontend development skills
  - Learn advanced JavaScript
  - Build more real-world projects
