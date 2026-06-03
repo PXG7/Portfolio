@@ -1,4 +1,4 @@
-#  My Portfolio
+# Portfolio
 Welcome to my personal portfolio website.
 This portfolio is a collection of my projects,skilss and practing journey in web development. I made this website to practice my frontend skills.
 
