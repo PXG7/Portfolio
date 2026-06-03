@@ -1,29 +1,25 @@
-# 💻 My Portfolio
+#  My Portfolio
+Welcome to my personal portfolio website.
+This portfolio is a collection of my projects,skilss and practing journey in web development. I made this website to practice my frontend skills.
 
-> Turning ideas into real through code.
->Welcome to my personal portfolio website where I showcase my skills, and passion for frontend development.
->This project represents my learning journey, creativity, and the exprience I have gained while exploring web development.
-
-# 🚀 Features 
+#  Features 
 - Modern and clean UI design
-- Fully respective layout 
+- Home 
 - About Me section
-- Skills showcase
+- Skills 
 - Project section
 - Contact section
 - Smooth user experience
-- Mobile friendly design
 
-# Technologies Used
- 
- This porfolio was built using:
+# Languages Used
+
  - HTML
- - CSs
+ - CSS
  - Javascript
- - Font Awesome
 
- # 🔥 About This Project
- I created this porfolio website to improve my frontend development skills and build practical projects while practicing web development.
+
+ #  About This Project
+ I made this porfolio website to improve my frontend development skills and build practical projects while practicing web development. While making this website I learned many things about website. I will add more projects and improve this website. 
  
  Through this project, I practiced:
  - UI design concepts 
@@ -32,14 +28,14 @@
  - Website section management
 
 
- # 🌐 Live Demo
+ #  Live Demo
    https://pxg7.github.io/Portfolio/
 
- # 📸 Website Preview 
+ #  Website Preview 
 
  ![alt text](<My website src.png>)
 
- # 🎯My Current Goals
+ #  My Current Goals
  - Improve frontend development skills
  - Learn advanced JavaScript
  - Build more real-world projects
@@ -47,4 +43,4 @@
  - Explore modern web technologies
 
 # Connect With Me
-Feel free to explore my work and provide feedback. pokhrelgokul2@gmsil.com
+  gmail: pokhrelgokul2@gmail.com
