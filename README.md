@@ -29,7 +29,7 @@ This portfolio is a collection of my projects,skilss and practing journey in web
 
 
  #  Live Demo
-   https://pxg7.github.io/Portfolio/
+    https://pxg7.github.io/Portfolio/
 
  #  Website Preview 
 
